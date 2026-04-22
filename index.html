@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Imposter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <nav class="nav" aria-label="Top navigation">
+          <div class="navLeft">
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <button class="brand" id="navHome" type="button" aria-label="Go to Home">
+              <div class="brandTitle">Find the Imposter</div>
+              <div class="brandSub">Pass-and-play word deduction game</div>
+            </button>
+          </div>
+
+          <div class="navMenu" id="navMenu" data-open="false">
+            <button class="navLink" id="navHomeLink" type="button">Home</button>
+            <button class="navLink" id="navHow" type="button">How to play</button>
+            <button class="navLink" id="navWords" type="button">Add Words</button>
+          </div>
+        </nav>
+      </header>
+
+      <main class="card" id="screen"></main>
+
+      <footer class="footer">
+        <div class="footerNote">Play in person. Keep your word secret.</div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
