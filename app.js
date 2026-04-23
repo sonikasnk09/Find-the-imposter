@@ -720,7 +720,7 @@
           </div>
 
           <div class="heroImageWrap" aria-hidden="true">
-            <img class="heroImage" src="assetshero.jpg.avif" alt="Night games" loading="eager" />
+            <img class="heroImage" src="hero.png" alt="Night games" loading="eager" />
           </div>
         </div>
       </div>
