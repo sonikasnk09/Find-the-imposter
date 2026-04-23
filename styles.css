@@ -608,3 +608,9 @@ button {
     display: flex;
   }
 }
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
